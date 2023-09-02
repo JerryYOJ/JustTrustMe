@@ -25,3 +25,6 @@ jobs:
       run: |
          ./gradlew assembleRelease
          tree
+    - uses: actions/upload-artifact@v3
+      with:
+         path: .
